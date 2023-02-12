@@ -14,6 +14,9 @@
 		0AA1A0582995F62A00961A36 /* IconBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0572995F62A00961A36 /* IconBuddyTests.swift */; };
 		0AA1A0622995F62A00961A36 /* IconBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0612995F62A00961A36 /* IconBuddyUITests.swift */; };
 		0AA1A0642995F62A00961A36 /* IconBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0632995F62A00961A36 /* IconBuddyUITestsLaunchTests.swift */; };
+		0AA1A0712995F73F00961A36 /* UIImage Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0702995F73F00961A36 /* UIImage Compatibility.swift */; };
+		0AA1A074299600C300961A36 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 0AA1A073299600C300961A36 /* Zip */; };
+		0AA1A076299600E700961A36 /* SaveImagesFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A075299600E700961A36 /* SaveImagesFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		0AA1A05D2995F62A00961A36 /* IconBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1A0612995F62A00961A36 /* IconBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyUITests.swift; sourceTree = "<group>"; };
 		0AA1A0632995F62A00961A36 /* IconBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AA1A0702995F73F00961A36 /* UIImage Compatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage Compatibility.swift"; sourceTree = "<group>"; };
+		0AA1A075299600E700961A36 /* SaveImagesFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImagesFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA1A074299600C300961A36 /* Zip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +103,8 @@
 			children = (
 				0AA1A0452995F62700961A36 /* IconBuddyApp.swift */,
 				0AA1A0472995F62700961A36 /* ContentView.swift */,
+				0AA1A075299600E700961A36 /* SaveImagesFunc.swift */,
+				0AA1A0702995F73F00961A36 /* UIImage Compatibility.swift */,
 				0AA1A0492995F62A00961A36 /* Assets.xcassets */,
 				0AA1A04E2995F62A00961A36 /* IconBuddy.entitlements */,
 				0AA1A04B2995F62A00961A36 /* Preview Content */,
@@ -145,6 +153,9 @@
 			dependencies = (
 			);
 			name = IconBuddy;
+			packageProductDependencies = (
+				0AA1A073299600C300961A36 /* Zip */,
+			);
 			productName = IconBuddy;
 			productReference = 0AA1A0422995F62700961A36 /* IconBuddy.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 0AA1A0392995F62700961A36;
+			packageReferences = (
+				0AA1A072299600C300961A36 /* XCRemoteSwiftPackageReference "Zip" */,
+			);
 			productRefGroup = 0AA1A0432995F62700961A36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA1A076299600E700961A36 /* SaveImagesFunc.swift in Sources */,
 				0AA1A0482995F62700961A36 /* ContentView.swift in Sources */,
 				0AA1A0462995F62700961A36 /* IconBuddyApp.swift in Sources */,
+				0AA1A0712995F73F00961A36 /* UIImage Compatibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0AA1A072299600C300961A36 /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0AA1A073299600C300961A36 /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AA1A072299600C300961A36 /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0AA1A03A2995F62700961A36 /* Project object */;
 }
