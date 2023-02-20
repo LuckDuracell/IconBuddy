@@ -8,8 +8,9 @@
 import Foundation
 import Cocoa
 import Zip
+import SwiftUI
 
-func saveResizedImages(for originalImage: NSImage, targetSizes: [Int?], transparency: Bool) {
+func saveResizedImages(for originalImage: NSImage, targetSizes: [Int?], transparency: Bool, contentType: String, asIconSet: Bool) {
     // show save panel for folder selection
     let panel = NSSavePanel()
     panel.nameFieldStringValue = "IconSet"
@@ -20,14 +21,23 @@ func saveResizedImages(for originalImage: NSImage, targetSizes: [Int?], transpar
             do {
                 // create a temporary directory for resized images
                 let tempDirectory = URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true)
-                let tempDirectoryURL = tempDirectory.appendingPathComponent("IconSet", isDirectory: true)
+                let tempDirectoryURL = tempDirectory.appendingPathComponent(asIconSet ? "IconSet.appiconset" : "IconSet", isDirectory: true)
                 try FileManager.default.createDirectory(at: tempDirectoryURL, withIntermediateDirectories: true, attributes: nil)
-
+                
+                //includes a contents.json file for specified paths
+                if contentType != "None" {
+                    let jsonURL = tempDirectoryURL.appendingPathComponent("Contents.json")
+                    let originalURL = Bundle.main.url(forResource: getContentPath(contentType), withExtension: "json")
+                    try FileManager.default.copyItem(at: originalURL!, to: jsonURL)
+                }
+                
                 // save resized images to the temporary directory
                 for (_, size) in targetSizes.enumerated() {
                     if size != nil {
                         let fileName = "\(size!).png"
                         let fileURL = tempDirectoryURL.appendingPathComponent(fileName)
+                        
+                        
                         
                         let resizedImage = NSImage(size: NSSize(width: size!, height: size!), flipped: false) { rect in
                             originalImage.draw(in: rect)
@@ -53,6 +63,8 @@ func saveResizedImages(for originalImage: NSImage, targetSizes: [Int?], transpar
                         try pngData.write(to: fileURL)
                     }
                 }
+                
+                
 
                 // zip the temporary directory
                 let archiveURL = url
@@ -70,5 +82,19 @@ func saveResizedImages(for originalImage: NSImage, targetSizes: [Int?], transpar
                 print(error.localizedDescription)
             }
         }
+    }
+}
+
+
+func getContentPath(_ contentType: String) -> String {
+    switch contentType {
+    case "macOS":
+        return "Contents1"
+    case "iOS":
+        return "Contents2"
+    case "macOS & iOS":
+        return "Contents3"
+    default:
+        return "error"
     }
 }

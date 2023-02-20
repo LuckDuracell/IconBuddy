@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A03B639299FFBF1000DECBF /* MacIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B638299FFBF0000DECBF /* MacIconView.swift */; };
+		0A03B6EA29A2BEE2000DECBF /* Contents2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B6E729A2BEE2000DECBF /* Contents2.json */; };
+		0A03B6EB29A2BEE2000DECBF /* Contents1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B6E829A2BEE2000DECBF /* Contents1.json */; };
+		0A03B6EC29A2BEE2000DECBF /* Contents3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B6E929A2BEE2000DECBF /* Contents3.json */; };
 		0AA1A0462995F62700961A36 /* IconBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0452995F62700961A36 /* IconBuddyApp.swift */; };
 		0AA1A0482995F62700961A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0472995F62700961A36 /* ContentView.swift */; };
 		0AA1A04A2995F62A00961A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1A0492995F62A00961A36 /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A03B638299FFBF0000DECBF /* MacIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIconView.swift; sourceTree = "<group>"; };
+		0A03B6E729A2BEE2000DECBF /* Contents2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents2.json; path = IconBuddy/Contents2.json; sourceTree = "<group>"; };
+		0A03B6E829A2BEE2000DECBF /* Contents1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents1.json; path = IconBuddy/Contents1.json; sourceTree = "<group>"; };
+		0A03B6E929A2BEE2000DECBF /* Contents3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents3.json; path = IconBuddy/Contents3.json; sourceTree = "<group>"; };
 		0AA1A0422995F62700961A36 /* IconBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1A0452995F62700961A36 /* IconBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyApp.swift; sourceTree = "<group>"; };
 		0AA1A0472995F62700961A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +89,9 @@
 		0AA1A0392995F62700961A36 = {
 			isa = PBXGroup;
 			children = (
+				0A03B6E829A2BEE2000DECBF /* Contents1.json */,
+				0A03B6E729A2BEE2000DECBF /* Contents2.json */,
+				0A03B6E929A2BEE2000DECBF /* Contents3.json */,
 				0AA1A0442995F62700961A36 /* IconBuddy */,
 				0AA1A0562995F62A00961A36 /* IconBuddyTests */,
 				0AA1A0602995F62A00961A36 /* IconBuddyUITests */,
@@ -103,6 +114,7 @@
 			children = (
 				0AA1A0452995F62700961A36 /* IconBuddyApp.swift */,
 				0AA1A0472995F62700961A36 /* ContentView.swift */,
+				0A03B638299FFBF0000DECBF /* MacIconView.swift */,
 				0AA1A075299600E700961A36 /* SaveImagesFunc.swift */,
 				0AA1A0702995F73F00961A36 /* UIImage Compatibility.swift */,
 				0AA1A0492995F62A00961A36 /* Assets.xcassets */,
@@ -247,6 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A03B6EA29A2BEE2000DECBF /* Contents2.json in Resources */,
+				0A03B6EB29A2BEE2000DECBF /* Contents1.json in Resources */,
+				0A03B6EC29A2BEE2000DECBF /* Contents3.json in Resources */,
 				0AA1A04D2995F62A00961A36 /* Preview Assets.xcassets in Resources */,
 				0AA1A04A2995F62A00961A36 /* Assets.xcassets in Resources */,
 			);
@@ -274,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA1A076299600E700961A36 /* SaveImagesFunc.swift in Sources */,
+				0A03B639299FFBF1000DECBF /* MacIconView.swift in Sources */,
 				0AA1A0482995F62700961A36 /* ContentView.swift in Sources */,
 				0AA1A0462995F62700961A36 /* IconBuddyApp.swift in Sources */,
 				0AA1A0712995F73F00961A36 /* UIImage Compatibility.swift in Sources */,
@@ -434,18 +450,21 @@
 				CODE_SIGN_ENTITLEMENTS = IconBuddy/IconBuddy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 190;
 				DEVELOPMENT_ASSET_PATHS = "\"IconBuddy/Preview Content\"";
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = IconAssistant;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = luckdev.IconBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -461,18 +480,21 @@
 				CODE_SIGN_ENTITLEMENTS = IconBuddy/IconBuddy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 190;
 				DEVELOPMENT_ASSET_PATHS = "\"IconBuddy/Preview Content\"";
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = IconAssistant;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = luckdev.IconBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
