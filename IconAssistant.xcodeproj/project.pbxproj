@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0A03B639299FFBF1000DECBF /* MacIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B638299FFBF0000DECBF /* MacIconView.swift */; };
-		0A03B6EA29A2BEE2000DECBF /* Contents2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B6E729A2BEE2000DECBF /* Contents2.json */; };
-		0A03B6EB29A2BEE2000DECBF /* Contents1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B6E829A2BEE2000DECBF /* Contents1.json */; };
-		0A03B6EC29A2BEE2000DECBF /* Contents3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B6E929A2BEE2000DECBF /* Contents3.json */; };
+		0A87234829A4989000430F9B /* Contents3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A87234529A4989000430F9B /* Contents3.json */; };
+		0A87234929A4989000430F9B /* Contents1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A87234629A4989000430F9B /* Contents1.json */; };
+		0A87234A29A4989000430F9B /* Contents2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A87234729A4989000430F9B /* Contents2.json */; };
 		0AA1A0462995F62700961A36 /* IconBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0452995F62700961A36 /* IconBuddyApp.swift */; };
 		0AA1A0482995F62700961A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A0472995F62700961A36 /* ContentView.swift */; };
 		0AA1A04A2995F62A00961A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1A0492995F62A00961A36 /* Assets.xcassets */; };
@@ -42,18 +42,18 @@
 
 /* Begin PBXFileReference section */
 		0A03B638299FFBF0000DECBF /* MacIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIconView.swift; sourceTree = "<group>"; };
-		0A03B6E729A2BEE2000DECBF /* Contents2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents2.json; path = IconBuddy/Contents2.json; sourceTree = "<group>"; };
-		0A03B6E829A2BEE2000DECBF /* Contents1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents1.json; path = IconBuddy/Contents1.json; sourceTree = "<group>"; };
-		0A03B6E929A2BEE2000DECBF /* Contents3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents3.json; path = IconBuddy/Contents3.json; sourceTree = "<group>"; };
-		0AA1A0422995F62700961A36 /* IconBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A87234529A4989000430F9B /* Contents3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents3.json; path = IconAssistant/Contents3.json; sourceTree = "<group>"; };
+		0A87234629A4989000430F9B /* Contents1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents1.json; path = IconAssistant/Contents1.json; sourceTree = "<group>"; };
+		0A87234729A4989000430F9B /* Contents2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents2.json; path = IconAssistant/Contents2.json; sourceTree = "<group>"; };
+		0AA1A0422995F62700961A36 /* IconAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1A0452995F62700961A36 /* IconBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyApp.swift; sourceTree = "<group>"; };
 		0AA1A0472995F62700961A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AA1A0492995F62A00961A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA1A04C2995F62A00961A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0AA1A04E2995F62A00961A36 /* IconBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IconBuddy.entitlements; sourceTree = "<group>"; };
-		0AA1A0532995F62A00961A36 /* IconBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA1A04E2995F62A00961A36 /* IconAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IconAssistant.entitlements; sourceTree = "<group>"; };
+		0AA1A0532995F62A00961A36 /* IconAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1A0572995F62A00961A36 /* IconBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyTests.swift; sourceTree = "<group>"; };
-		0AA1A05D2995F62A00961A36 /* IconBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA1A05D2995F62A00961A36 /* IconAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1A0612995F62A00961A36 /* IconBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyUITests.swift; sourceTree = "<group>"; };
 		0AA1A0632995F62A00961A36 /* IconBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0AA1A0702995F73F00961A36 /* UIImage Compatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage Compatibility.swift"; sourceTree = "<group>"; };
@@ -89,10 +89,10 @@
 		0AA1A0392995F62700961A36 = {
 			isa = PBXGroup;
 			children = (
-				0A03B6E829A2BEE2000DECBF /* Contents1.json */,
-				0A03B6E729A2BEE2000DECBF /* Contents2.json */,
-				0A03B6E929A2BEE2000DECBF /* Contents3.json */,
-				0AA1A0442995F62700961A36 /* IconBuddy */,
+				0A87234629A4989000430F9B /* Contents1.json */,
+				0A87234729A4989000430F9B /* Contents2.json */,
+				0A87234529A4989000430F9B /* Contents3.json */,
+				0AA1A0442995F62700961A36 /* IconAssistant */,
 				0AA1A0562995F62A00961A36 /* IconBuddyTests */,
 				0AA1A0602995F62A00961A36 /* IconBuddyUITests */,
 				0AA1A0432995F62700961A36 /* Products */,
@@ -102,14 +102,14 @@
 		0AA1A0432995F62700961A36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AA1A0422995F62700961A36 /* IconBuddy.app */,
-				0AA1A0532995F62A00961A36 /* IconBuddyTests.xctest */,
-				0AA1A05D2995F62A00961A36 /* IconBuddyUITests.xctest */,
+				0AA1A0422995F62700961A36 /* IconAssistant.app */,
+				0AA1A0532995F62A00961A36 /* IconAssistantTests.xctest */,
+				0AA1A05D2995F62A00961A36 /* IconAssistantUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0AA1A0442995F62700961A36 /* IconBuddy */ = {
+		0AA1A0442995F62700961A36 /* IconAssistant */ = {
 			isa = PBXGroup;
 			children = (
 				0AA1A0452995F62700961A36 /* IconBuddyApp.swift */,
@@ -118,10 +118,10 @@
 				0AA1A075299600E700961A36 /* SaveImagesFunc.swift */,
 				0AA1A0702995F73F00961A36 /* UIImage Compatibility.swift */,
 				0AA1A0492995F62A00961A36 /* Assets.xcassets */,
-				0AA1A04E2995F62A00961A36 /* IconBuddy.entitlements */,
+				0AA1A04E2995F62A00961A36 /* IconAssistant.entitlements */,
 				0AA1A04B2995F62A00961A36 /* Preview Content */,
 			);
-			path = IconBuddy;
+			path = IconAssistant;
 			sourceTree = "<group>";
 		};
 		0AA1A04B2995F62A00961A36 /* Preview Content */ = {
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0AA1A0412995F62700961A36 /* IconBuddy */ = {
+		0AA1A0412995F62700961A36 /* IconAssistant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AA1A0672995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconBuddy" */;
+			buildConfigurationList = 0AA1A0672995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconAssistant" */;
 			buildPhases = (
 				0AA1A03E2995F62700961A36 /* Sources */,
 				0AA1A03F2995F62700961A36 /* Frameworks */,
@@ -164,17 +164,17 @@
 			);
 			dependencies = (
 			);
-			name = IconBuddy;
+			name = IconAssistant;
 			packageProductDependencies = (
 				0AA1A073299600C300961A36 /* Zip */,
 			);
 			productName = IconBuddy;
-			productReference = 0AA1A0422995F62700961A36 /* IconBuddy.app */;
+			productReference = 0AA1A0422995F62700961A36 /* IconAssistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0AA1A0522995F62A00961A36 /* IconBuddyTests */ = {
+		0AA1A0522995F62A00961A36 /* IconAssistantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AA1A06A2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconBuddyTests" */;
+			buildConfigurationList = 0AA1A06A2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconAssistantTests" */;
 			buildPhases = (
 				0AA1A04F2995F62A00961A36 /* Sources */,
 				0AA1A0502995F62A00961A36 /* Frameworks */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				0AA1A0552995F62A00961A36 /* PBXTargetDependency */,
 			);
-			name = IconBuddyTests;
+			name = IconAssistantTests;
 			productName = IconBuddyTests;
-			productReference = 0AA1A0532995F62A00961A36 /* IconBuddyTests.xctest */;
+			productReference = 0AA1A0532995F62A00961A36 /* IconAssistantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0AA1A05C2995F62A00961A36 /* IconBuddyUITests */ = {
+		0AA1A05C2995F62A00961A36 /* IconAssistantUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AA1A06D2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconBuddyUITests" */;
+			buildConfigurationList = 0AA1A06D2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconAssistantUITests" */;
 			buildPhases = (
 				0AA1A0592995F62A00961A36 /* Sources */,
 				0AA1A05A2995F62A00961A36 /* Frameworks */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				0AA1A05F2995F62A00961A36 /* PBXTargetDependency */,
 			);
-			name = IconBuddyUITests;
+			name = IconAssistantUITests;
 			productName = IconBuddyUITests;
-			productReference = 0AA1A05D2995F62A00961A36 /* IconBuddyUITests.xctest */;
+			productReference = 0AA1A05D2995F62A00961A36 /* IconAssistantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0AA1A03D2995F62700961A36 /* Build configuration list for PBXProject "IconBuddy" */;
+			buildConfigurationList = 0AA1A03D2995F62700961A36 /* Build configuration list for PBXProject "IconAssistant" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AA1A0412995F62700961A36 /* IconBuddy */,
-				0AA1A0522995F62A00961A36 /* IconBuddyTests */,
-				0AA1A05C2995F62A00961A36 /* IconBuddyUITests */,
+				0AA1A0412995F62700961A36 /* IconAssistant */,
+				0AA1A0522995F62A00961A36 /* IconAssistantTests */,
+				0AA1A05C2995F62A00961A36 /* IconAssistantUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,9 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A03B6EA29A2BEE2000DECBF /* Contents2.json in Resources */,
-				0A03B6EB29A2BEE2000DECBF /* Contents1.json in Resources */,
-				0A03B6EC29A2BEE2000DECBF /* Contents3.json in Resources */,
+				0A87234829A4989000430F9B /* Contents3.json in Resources */,
+				0A87234929A4989000430F9B /* Contents1.json in Resources */,
+				0A87234A29A4989000430F9B /* Contents2.json in Resources */,
 				0AA1A04D2995F62A00961A36 /* Preview Assets.xcassets in Resources */,
 				0AA1A04A2995F62A00961A36 /* Assets.xcassets in Resources */,
 			);
@@ -318,12 +318,12 @@
 /* Begin PBXTargetDependency section */
 		0AA1A0552995F62A00961A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0AA1A0412995F62700961A36 /* IconBuddy */;
+			target = 0AA1A0412995F62700961A36 /* IconAssistant */;
 			targetProxy = 0AA1A0542995F62A00961A36 /* PBXContainerItemProxy */;
 		};
 		0AA1A05F2995F62A00961A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0AA1A0412995F62700961A36 /* IconBuddy */;
+			target = 0AA1A0412995F62700961A36 /* IconAssistant */;
 			targetProxy = 0AA1A05E2995F62A00961A36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -447,11 +447,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = IconBuddy/IconBuddy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = IconAssistant/IconAssistant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 190;
-				DEVELOPMENT_ASSET_PATHS = "\"IconBuddy/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 195;
+				DEVELOPMENT_ASSET_PATHS = "\"IconAssistant/Preview Content\"";
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -464,7 +464,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.21;
 				PRODUCT_BUNDLE_IDENTIFIER = luckdev.IconBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -477,11 +477,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = IconBuddy/IconBuddy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = IconAssistant/IconAssistant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 190;
-				DEVELOPMENT_ASSET_PATHS = "\"IconBuddy/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 195;
+				DEVELOPMENT_ASSET_PATHS = "\"IconAssistant/Preview Content\"";
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -494,7 +494,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.21;
 				PRODUCT_BUNDLE_IDENTIFIER = luckdev.IconBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -517,7 +517,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IconBuddy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IconAssistant";
 			};
 			name = Debug;
 		};
@@ -536,7 +536,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IconBuddy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IconAssistant";
 			};
 			name = Release;
 		};
@@ -577,7 +577,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AA1A03D2995F62700961A36 /* Build configuration list for PBXProject "IconBuddy" */ = {
+		0AA1A03D2995F62700961A36 /* Build configuration list for PBXProject "IconAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AA1A0652995F62A00961A36 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AA1A0672995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconBuddy" */ = {
+		0AA1A0672995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AA1A0682995F62A00961A36 /* Debug */,
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AA1A06A2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconBuddyTests" */ = {
+		0AA1A06A2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconAssistantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AA1A06B2995F62A00961A36 /* Debug */,
@@ -604,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AA1A06D2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconBuddyUITests" */ = {
+		0AA1A06D2995F62A00961A36 /* Build configuration list for PBXNativeTarget "IconAssistantUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AA1A06E2995F62A00961A36 /* Debug */,
